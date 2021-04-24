@@ -1,0 +1,39 @@
+{
+	"author": "Craiqser <craiqser@gmail.com>",
+	"bugs": {
+		"url": "https://github.com/Craiqser/eslint-config/issues"
+	},
+	"description": "An ESLint shareable config.",
+	"devDependencies": {
+		"eslint": "^7.25.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-vue": "^7.9.0"
+	},
+	"homepage": "https://github.com/Craiqser/eslint-config#readme",
+	"keywords": [
+		"config",
+		"craiqser",
+		"eslint",
+		"eslintconfig",
+		"linter",
+		"preset"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "@craiqser/eslint-config",
+	"peerDependencies": {
+		"eslint": "^7.25.0",
+		"eslint-plugin-import": "^2.22.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Craiqser/eslint-config.git"
+	},
+	"scripts": {
+		"lint": "npx eslint ."
+	},
+	"version": "1.0.0"
+}

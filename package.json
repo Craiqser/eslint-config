@@ -23,7 +23,8 @@
 	"name": "@craiqser/eslint-config",
 	"peerDependencies": {
 		"eslint": "^7.25.0",
-		"eslint-plugin-import": "^2.22.1"
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-vue": "^7.9.0"
 	},
 	"publishConfig": {
 		"access": "public"
@@ -35,5 +36,5 @@
 	"scripts": {
 		"lint": "npx eslint ."
 	},
-	"version": "1.0.0"
+	"version": "1.0.1"
 }

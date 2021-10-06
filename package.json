@@ -5,9 +5,9 @@
 	},
 	"description": "An ESLint shareable config.",
 	"devDependencies": {
-		"eslint": "^7.28.0",
-		"eslint-plugin-import": "^2.23.4",
-		"eslint-plugin-vue": "^7.10.0"
+		"eslint": "^7.32.0",
+		"eslint-plugin-import": "^2.24.2",
+		"eslint-plugin-vue": "^7.19.1"
 	},
 	"homepage": "https://github.com/Craiqser/eslint-config#readme",
 	"keywords": [
@@ -22,9 +22,9 @@
 	"main": "index.js",
 	"name": "@craiqser/eslint-config",
 	"peerDependencies": {
-		"eslint": "^7.28.0",
-		"eslint-plugin-import": "^2.23.4",
-		"eslint-plugin-vue": "^7.10.0"
+		"eslint": "^7.32.0",
+		"eslint-plugin-import": "^2.24.2",
+		"eslint-plugin-vue": "^7.19.1"
 	},
 	"publishConfig": {
 		"access": "public"
@@ -36,5 +36,5 @@
 	"scripts": {
 		"lint": "npx eslint ."
 	},
-	"version": "1.0.5"
+	"version": "1.0.6"
 }

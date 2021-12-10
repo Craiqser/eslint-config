@@ -1,7 +1,7 @@
 module.exports = {
 	extends: [
-		'./lib/default',
-		'./lib/node',
-		'./lib/vue'
+		'./lib/default.js',
+		'./lib/node.js',
+		'./lib/vue.js'
 	]
 };

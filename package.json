@@ -3,39 +3,30 @@
 	"bugs": {
 		"url": "https://github.com/Craiqser/eslint-config/issues"
 	},
-	"description": "An ESLint shareable config.",
-	"devDependencies": {
-		"eslint": "^8.3.0",
+	"dependencies": {
+		"eslint": "^8.4.1",
 		"eslint-plugin-import": "^2.25.3",
-		"eslint-plugin-vue": "^8.1.1"
+		"eslint-plugin-vue": "8.2.0"
 	},
+	"description": "An ESLint shareable config.",
 	"homepage": "https://github.com/Craiqser/eslint-config#readme",
-	"keywords": [
-		"config",
-		"craiqser",
-		"eslint",
-		"eslintconfig",
-		"linter",
-		"preset"
-	],
+	"keywords": ["config", "craiqser", "eslint", "eslintconfig", "linter", "preset"],
 	"license": "MIT",
 	"main": "index.js",
 	"name": "@craiqser/eslint-config",
 	"peerDependencies": {
-		"eslint": "^8.3.0",
-		"eslint-plugin-import": "^2.25.3",
-		"eslint-plugin-vue": "^8.1.1"
+		"eslint": ">=8.4.0"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Craiqser/eslint-config.git"
+		"url": "https://github.com/Craiqser/eslint-config.git"
 	},
 	"scripts": {
 		"lint": "npx eslint .",
 		"publish": "npm publish"
 	},
-	"version": "1.0.12"
+	"version": "1.1.0"
 }

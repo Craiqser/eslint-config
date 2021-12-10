@@ -26,7 +26,7 @@
 	},
 	"scripts": {
 		"lint": "npx eslint .",
-		"publish": "npm publish"
+		"pub": "npm publish"
 	},
 	"version": "1.1.0"
 }

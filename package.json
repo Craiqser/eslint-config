@@ -4,17 +4,22 @@
 		"url": "https://github.com/Craiqser/eslint-config/issues"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.7.0",
-		"@typescript-eslint/parser": "^5.7.0",
-		"eslint-plugin-import": "^2.25.3",
-		"eslint-plugin-vue": "8.2.0"
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-vue": "^8.2.0"
 	},
 	"description": "An ESLint shareable config.",
 	"devDependencies": {
-		"eslint": "^8.5.0"
+		"eslint": "^8.6.0"
 	},
 	"homepage": "https://github.com/Craiqser/eslint-config#readme",
-	"keywords": ["config", "craiqser", "eslint", "eslintconfig", "linter", "preset"],
+	"keywords": [
+		"config",
+		"craiqser",
+		"eslint",
+		"eslintconfig",
+		"linter",
+		"preset"
+	],
 	"license": "MIT",
 	"main": "index.js",
 	"name": "@craiqser/eslint-config",
@@ -32,5 +37,5 @@
 		"lint": "npx eslint .",
 		"pub": "npm publish"
 	},
-	"version": "1.1.1"
+	"version": "1.1.2"
 }

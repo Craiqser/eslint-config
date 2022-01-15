@@ -5,7 +5,7 @@
 	},
 	"dependencies": {
 		"eslint-plugin-import": "^2.25.4",
-		"eslint-plugin-vue": "^8.2.0"
+		"eslint-plugin-vue": "^8.3.0"
 	},
 	"description": "An ESLint shareable config.",
 	"devDependencies": {
@@ -37,5 +37,5 @@
 		"lint": "npx eslint .",
 		"pub": "npm publish"
 	},
-	"version": "1.1.2"
+	"version": "1.1.3"
 }

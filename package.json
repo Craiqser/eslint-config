@@ -5,11 +5,11 @@
 	},
 	"dependencies": {
 		"eslint-plugin-import": "^2.25.4",
-		"eslint-plugin-vue": "^8.4.1"
+		"eslint-plugin-vue": "^8.5.0"
 	},
 	"description": "An ESLint shareable config.",
 	"devDependencies": {
-		"eslint": "^8.9.0"
+		"eslint": "^8.10.0"
 	},
 	"homepage": "https://github.com/Craiqser/eslint-config#readme",
 	"keywords": [
@@ -37,5 +37,5 @@
 		"lint": "npx eslint .",
 		"pub": "npm publish"
 	},
-	"version": "1.1.4"
+	"version": "1.1.5"
 }

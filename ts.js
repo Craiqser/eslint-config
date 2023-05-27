@@ -15,6 +15,7 @@ module.exports = {
 		{
 			files: ['*.cts', '*.mts', '*.ts', '*.tsx'],
 			parser: '@typescript-eslint/parser',
+			parserOptions: { project: true },
 			rules: {
 				'@typescript-eslint/adjacent-overload-signatures': 'error',
 				'@typescript-eslint/array-type': ['error', { default: 'array-simple' }],

@@ -3,5 +3,6 @@
 An ESLint shareable config.
 
 Short description:
+- Browser, Node, TS, Vue
+- JS: `'`, HTML: `"`.
 - Tab, LF;
-- quote `'` for js, `"` for html.

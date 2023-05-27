@@ -4,6 +4,10 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended',
 		'plugin:import/typescript'
 	],
+	parserOptions: {
+		parser: '@typescript-eslint/parser',
+		project: './tsconfig.json'
+	},
 	plugins: ['@typescript-eslint'],
 	overrides: [
 		{
@@ -15,7 +19,10 @@ module.exports = {
 		{
 			files: ['*.cts', '*.mts', '*.ts', '*.tsx'],
 			parser: '@typescript-eslint/parser',
-			parserOptions: { project: true },
+			parserOptions: {
+				parser: "@typescript-eslint/parser",
+				project: "./tsconfig.json"
+			},
 			rules: {
 				'@typescript-eslint/adjacent-overload-signatures': 'error',
 				'@typescript-eslint/array-type': ['error', { default: 'array-simple' }],

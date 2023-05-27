@@ -121,7 +121,7 @@ module.exports = {
 				'@typescript-eslint/restrict-plus-operands': ['error', { checkCompoundAssignments: true }],
 				'@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
 				'@typescript-eslint/return-await': ['error', 'always'],
-				'@typescript-eslint/semi': ['error', 'never'],
+				'@typescript-eslint/semi': ['error', 'always'],
 				'@typescript-eslint/space-before-blocks': ['error', 'always'],
 				'@typescript-eslint/space-before-function-paren': ['error', { anonymous: 'always', asyncArrow: 'always', named: 'never' }],
 				'@typescript-eslint/space-infix-ops': 'error',

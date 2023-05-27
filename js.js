@@ -11,6 +11,14 @@ module.exports = {
 		navigator: 'readonly',
 		window: 'readonly'
 	},
+	overrides: [
+		{
+			files: ['*.cts', '*.js', '*.mjs', '*.mts', '*.ts', '*.tsx'],
+			rules: {
+				quotes: ['error', 'single']
+			}
+		}
+	],
 	parserOptions: {
 		ecmaFeatures: {
 			jsx: true
@@ -168,6 +176,7 @@ module.exports = {
 		'no-prototype-builtins': 'error',
 		'no-redeclare': ['error', { builtinGlobals: false }],
 		'no-regex-spaces': 'error',
+		'no-restricted-globals': ['error', { name: 'global', message: 'Use `globalThis` instead.' }],
 		'no-return-assign': ['error', 'except-parens'],
 		'no-return-await': 'error',
 		'no-self-assign': ['error', { props: true }],

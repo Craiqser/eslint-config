@@ -11,17 +11,11 @@ module.exports = {
 	plugins: ['@typescript-eslint'],
 	overrides: [
 		{
-			files: ['*.cts', '*.js', '*.mjs', '*.mts', '*.ts', '*.tsx'],
-			rules: {
-				quotes: ['error', 'single']
-			}
-		},
-		{
 			files: ['*.cts', '*.mts', '*.ts', '*.tsx'],
 			parser: '@typescript-eslint/parser',
 			parserOptions: {
-				parser: "@typescript-eslint/parser",
-				project: "./tsconfig.json"
+				parser: '@typescript-eslint/parser',
+				project: './tsconfig.json'
 			},
 			rules: {
 				'@typescript-eslint/adjacent-overload-signatures': 'error',

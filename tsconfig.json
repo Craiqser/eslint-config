@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "nodenext",
+		"strictNullChecks": true,
+		"target": "ESNext"
+	},
+	"include": ["./**/*"]
+}

@@ -1,15 +1,25 @@
 {
-	"author": "Craiqser <craiqser@gmail.com>",
+	"author": {
+		"email": "craiqser@gmail.com",
+		"name": "Craiqser",
+		"url": "https://github.com/Craiqser/"
+	},
 	"bugs": {
 		"url": "https://github.com/Craiqser/eslint-config/issues"
 	},
 	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.59.7",
+		"@typescript-eslint/parser": "^5.59.7",
 		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-vue": "^9.11.1"
+		"eslint-plugin-n": "^16.0.0",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-vue": "^9.14.1",
+		"typescript": "^5.0.4"
 	},
 	"description": "An ESLint shareable config.",
 	"devDependencies": {
-		"eslint": "^8.40.0"
+		"@types/eslint": "^8.40.0",
+		"eslint": "^8.41.0"
 	},
 	"homepage": "https://github.com/Craiqser/eslint-config#readme",
 	"keywords": [
@@ -18,13 +28,16 @@
 		"eslint",
 		"eslintconfig",
 		"linter",
-		"preset"
+		"preset",
+		"typescript"
 	],
 	"license": "MIT",
 	"main": "index.js",
 	"name": "@craiqser/eslint-config",
+	"packageManager": "pnpm@8.5.1",
 	"peerDependencies": {
-		"eslint": ">=8.40.0"
+		"eslint": ">=8.41.0",
+		"typescript": ">=5.0.0"
 	},
 	"publishConfig": {
 		"access": "public"
@@ -34,8 +47,8 @@
 		"url": "https://github.com/Craiqser/eslint-config.git"
 	},
 	"scripts": {
-		"lint": "npx eslint .",
+		"lint": "eslint .",
 		"pub": "npm publish"
 	},
-	"version": "1.2.0"
+	"version": "2.0.0"
 }

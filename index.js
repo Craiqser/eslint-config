@@ -1,3 +1,1 @@
-module.exports = {
-	extends: ['./lib/vue.js']
-};
+module.exports = require('./.eslintrc.json');

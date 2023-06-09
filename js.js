@@ -11,6 +11,12 @@ module.exports = {
 		navigator: 'readonly',
 		window: 'readonly'
 	},
+	ignorePatterns: [
+		'build/',
+		'dist/',
+		'public/',
+		'temp/'
+	],
 	overrides: [
 		{
 			files: ['*.cts', '*.js', '*.mjs', '*.mts', '*.ts', '*.tsx'],

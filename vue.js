@@ -40,6 +40,9 @@ module.exports = {
 					multiline: { max: 6 },
 					singleline: { max: 6 }
 				}],
+				'vue/multi-word-component-names': ['error', {
+					ignores: ['Todo']
+				}],
 				'vue/no-constant-condition': 'warn',
 				'vue/no-deprecated-filter': 'error',
 				'vue/no-empty-pattern': 'error',

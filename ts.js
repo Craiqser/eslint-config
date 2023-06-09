@@ -92,6 +92,7 @@ module.exports = {
 				'@typescript-eslint/no-unsafe-call': 'error',
 				'@typescript-eslint/no-unsafe-member-access': 'error',
 				'@typescript-eslint/no-unsafe-return': 'error',
+				'@typescript-eslint/no-unused-vars': 'error',
 				'@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
 				'@typescript-eslint/no-var-requires': 'error',
 				'@typescript-eslint/object-curly-spacing': ['error', 'always'],

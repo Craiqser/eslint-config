@@ -26,7 +26,7 @@ module.exports = {
 				}],
 				'vue/custom-event-name-casing': ['error', 'camelCase'],
 				'vue/define-macros-order': ['error', {
-					order: ['defineProps', 'defineEmits']
+					order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots']
 				}],
 				'vue/dot-location': ['error', 'property'],
 				'vue/dot-notation': ['error', { allowKeywords: true }],

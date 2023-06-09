@@ -176,7 +176,14 @@ module.exports = {
 		'no-prototype-builtins': 'error',
 		'no-redeclare': ['error', { builtinGlobals: false }],
 		'no-regex-spaces': 'error',
-		'no-restricted-globals': ['error', { name: 'global', message: 'Use `globalThis` instead.' }],
+		'no-restricted-globals': ['error',
+			{ name: 'global', message: 'Use `globalThis` instead.' },
+			{ name: 'self', message: 'Use `globalThis` instead.' }
+		],
+		'no-restricted-properties': ['error',
+			{ property: '__proto__', message: 'Use `Object.getPrototypeOf` instead.' },
+			{ object: 'Math', property: 'pow', message: 'Use the exponentiation operator (**) instead.' }
+		],
 		'no-return-assign': ['error', 'except-parens'],
 		'no-return-await': 'error',
 		'no-self-assign': ['error', { props: true }],

@@ -34,10 +34,7 @@ module.exports = {
 				'@typescript-eslint/comma-spacing': ['error', { before: false, after: true }],
 				'@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
 				'@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
-				'@typescript-eslint/consistent-type-assertions': ['error', {
-					assertionStyle: 'as',
-					objectLiteralTypeAssertions: 'never'
-				}],
+				'@typescript-eslint/consistent-type-assertions': 'off',
 				'@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
 				'@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: true }],
 				'@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: false }],

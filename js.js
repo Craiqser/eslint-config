@@ -71,6 +71,7 @@ module.exports = {
 		'import/no-absolute-path': ['error', { esmodule: true, commonjs: true, amd: false }],
 		'import/no-duplicates': 'error',
 		'import/no-named-default': 'error',
+		'import/no-self-import': 'error',
 		'import/no-webpack-loader-syntax': 'error',
 
 		indent: ['error', 'tab', {

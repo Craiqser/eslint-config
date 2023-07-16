@@ -110,7 +110,7 @@ module.exports = {
 				'@typescript-eslint/quotes': ['error', 'single'],
 				'@typescript-eslint/require-array-sort-compare': ['error', { ignoreStringArrays: true }],
 				'@typescript-eslint/require-await': 'error',
-				'@typescript-eslint/restrict-plus-operands': ['error', { checkCompoundAssignments: true }],
+				'@typescript-eslint/restrict-plus-operands': 'error',
 				'@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
 				'@typescript-eslint/return-await': ['error', 'always'],
 				'@typescript-eslint/semi': ['error', 'always'],

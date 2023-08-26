@@ -10,6 +10,9 @@ module.exports = {
 			rules: {
 				'vue/array-bracket-spacing': ['error', 'never'],
 				'vue/arrow-spacing': ['error', { before: true, after: true }],
+				'vue/block-order': ['error', {
+					order: ['script', 'template', 'style']
+				}],
 				'vue/block-spacing': ['error', 'always'],
 				'vue/block-tag-newline': ['error', {
 					singleline: 'always',
@@ -21,9 +24,6 @@ module.exports = {
 				'vue/comma-style': ['error', 'last'],
 				'vue/component-name-in-template-casing': ['error', 'PascalCase'],
 				'vue/component-options-name-casing': ['error', 'PascalCase'],
-				'vue/component-tags-order': ['error', {
-					order: ['script', 'template', 'style']
-				}],
 				'vue/custom-event-name-casing': ['error', 'camelCase'],
 				'vue/define-macros-order': ['error', {
 					order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots']
